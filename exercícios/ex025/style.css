@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+table{
+    margin: 50px auto;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+table  tbody tr:nth-child(2n){
+    background-color: lightgray;
+}
+caption{
+    background-color: #2E51A2;
+    color: white;
+    font-size: large;
+    font-weight: bold; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th{
+    background-color: #2E51A2;
+    color: white;
+    font-size: large;
+    font-weight: bold; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rank{
+    text-align: center;
+    background-color: #2E51A2;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+}
+.title{
+    font-size: 18px;
+    font-weight: bold;
+}
