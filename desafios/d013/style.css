@@ -15,7 +15,7 @@ html, body{
 }
 
 #telefone{
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -24,12 +24,13 @@ html, body{
 }
 
 #tela{
-    position: relative;
-    top: 50%;
+    position: absolute;
+    border: none;
+    top: 311px;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 267px;
-    height: 471px;
+    height: 474px;
 
 }
 
